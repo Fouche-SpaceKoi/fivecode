@@ -1,0 +1,59 @@
+:root {
+  --gris-oscuro: #171717;
+  --amarillo: #eab80e;
+  --blanco: #ffffff;
+  --fuente-principal: "Roboto Mono", monospace;
+}
+
+.img-name {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.name h1 {
+  font-size: 50px;
+  font-family: var(--fuente-principal);
+  font-weight: bold;
+  border-top: 4px solid var(--amarillo);
+  width: fit-content;
+  padding-top: 15px;
+  color: var(--amarillo);
+  margin-left: 85px;
+  margin-bottom: 15px;
+}
+
+.name h2 {
+  font-size: 40px;
+  font-family: var(--fuente-principal);
+  font-weight: normal;
+  color: var(--blanco);
+  margin-left: 85px;
+}
+
+.info {
+  margin-left: 160px;
+  margin-bottom: 100px;
+}
+
+.info ul li {
+  margin-bottom: 15px;
+}
+
+.info ul li p span {
+  color: var(--amarillo);
+  font-weight: normal;
+}
+
+.info ul li p {
+  color: var(--blanco);
+  font-size: 24px;
+  font-family: var(--fuente-principal);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}

@@ -1,0 +1,90 @@
+:root {
+  --gris-oscuro: #171717;
+  --amarillo: #eab80e;
+  --blanco: #ffffff;
+  --fuente-principal: "Roboto Mono", monospace;
+}
+
+body {
+  font-size: 14px;
+  background-color: var(--gris-oscuro);
+  font-weight: lighter;
+}
+
+.header {
+  width: 100%;
+  background-color: var(--gris-oscuro);
+  height: 80px;
+  box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+}
+
+.header-div {
+  width: 1350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo img {
+  height: 55px;
+  margin-left: 40px;
+}
+
+.header-nav_right {
+  margin-right: 40px;
+}
+
+.header-nav_right ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.header-nav_right ul li a {
+  color: var(--blanco);
+  text-decoration: none;
+  font-family: var(--fuente-principal);
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.header-nav_right ul li a:hover {
+  color: var(--amarillo);
+  font-size: 120%;
+}
+
+.header-nav_right ul li p {
+  color: var(--blanco);
+  font-size: 25px;
+}
+
+main {
+  width: 1350px;
+  margin: 0 auto;
+}
+
+.footer {
+  height: 80px;
+  width: 100%;
+  background-color: var(--amarillo);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.footer p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: var(--fuente-principal);
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--blanco);
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

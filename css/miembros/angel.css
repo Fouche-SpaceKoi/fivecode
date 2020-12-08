@@ -1,0 +1,17 @@
+:root {
+  --gris-oscuro: #171717;
+  --amarillo: #eab80e;
+  --blanco: #ffffff;
+  --fuente-principal: "Roboto Mono", monospace;
+}
+
+#angel-img {
+  margin-top: 40px;
+  width: 350px;
+  height: 350px;
+  background-image: url("../../img/miembros/angel.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 5px solid var(--amarillo);
+}

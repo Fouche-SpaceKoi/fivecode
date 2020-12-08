@@ -1,0 +1,188 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  /* Index */
+
+  .header-logo img {
+    margin-left: 20px;
+  }
+
+  .team_container {
+    grid-template: repeat(6, 340px) / 240px;
+    justify-content: center;
+    grid-gap: 15px;
+  }
+
+  #kennett,
+  #diego,
+  #guillermo,
+  #angel,
+  #erick,
+  #leonardo {
+    width: 170px;
+    height: 170px;
+    margin-top: 25px;
+  }
+
+  .ficha-nombre {
+    font-size: 16px;
+    margin-top: 25px;
+  }
+
+  .ficha-rol {
+    font-size: 14px;
+  }
+
+  .equipo-title h1 {
+    font-size: 50px;
+  }
+
+  .banner-logo img {
+    width: 100%;
+    max-width: 700px;
+  }
+
+  /* Conocenos */
+
+  main {
+    width: 100%;
+  }
+
+  .header-nav_right ul li p {
+    display: none;
+  }
+
+  .header-nav_right {
+    margin-right: 0px;
+  }
+
+  .header-nav_right ul li {
+    margin-left: 3px;
+  }
+
+  .valores-container {
+    width: 100%;
+    grid-template: repeat(6, 180px) / repeat(1, 1fr);
+  }
+
+  .valores-title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .valores-title div {
+    width: 270px;
+    height: 150px;
+  }
+
+  .reglamento-title {
+    width: 270px;
+    height: 150px;
+  }
+
+  .reglamento-title h2 {
+    font-size: 40px;
+    margin: 0 auto;
+  }
+
+  .reglamento-table-title {
+    font-size: 35px;
+    margin-left: 30px;
+  }
+
+  .valores-title h2 {
+    font-size: 40px;
+  }
+  .reglamento-title {
+    margin: 0 auto;
+  }
+
+  .about_us-logo img {
+    width: 300px;
+  }
+
+  .valores-valor {
+    margin: 0 auto;
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+  }
+
+  .valores-valor h3 {
+    font-size: 25px;
+  }
+
+  .about_us {
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    justify-content: space-around;
+  }
+
+  .about_us-logo {
+    width: 100%;
+  }
+
+  .about_us-mision_vision {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  /* Miembros */
+  #diego-img,
+  #angel-img,
+  #erick-img {
+    width: 280px;
+    height: 280px;
+    margin-bottom: 20px;
+  }
+
+  .img-name {
+    margin-left: 0px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .name {
+    width: 90%;
+    margin-left: 0px;
+  }
+
+  .name h1 {
+    margin-left: 0px;
+    font-size: 40px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .name h2 {
+    margin-left: 0px;
+    font-size: 30px;
+  }
+
+  .info {
+    margin-left: 0px;
+  }
+
+  .info ul li p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .info ul li p span {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .info ul li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    position: static;
+  }
+}
